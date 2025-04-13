@@ -55,18 +55,6 @@ These features help the model better understand the individual's financial healt
 
 The default classifier is `RandomForestClassifier` from scikit-learn, achieving strong performance on the test set.
 
-Other models evaluated:
-- Logistic Regression
-- Gradient Boosting Classifier
-
-Each model’s accuracy is compared visually.
-
----
-
-## 🔍 SHAP Explainability
-
-Used `shap.TreeExplainer` to identify the most influential features on the credit score prediction. This provides a transparent, interpretable model.
-
 ---
 
 ## 🎯 Predict Your Credit Score
@@ -80,9 +68,7 @@ The project includes an interactive section where you can input:
 ## 🖼️ Sample Visualizations
 
 - Box plots for credit score distribution across various features
-- SHAP summary plot for feature impact
 - Feature importance heatmap
-- Model accuracy bar chart
 
 ---
 
@@ -112,15 +98,3 @@ python credit_score_classification.py
 - Incorporate additional data sources (e.g. location, employment length)
 
 ---
-
-## 🤝 Contributions
-
-Pull requests and stars are welcome! If you have suggestions or improvements, feel free to open an issue.
-
----
-
-## 📬 Contact
-
-Created with ❤️ by [Your Name]  
-📧 your.email@example.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/yourprofile)
